@@ -1,6 +1,9 @@
 import React from 'react';
 
+
+
 const Home = () => {
+
     return (
         <div>
             <div className="hero min-h-screen bg-base-200">
@@ -12,7 +15,9 @@ const Home = () => {
                         <p className="py-6 text-xl sm:text-center lg:text-left ">Meet university,and cultural institutions, who'll share their experience.</p>
                         {/* <button className="btn btn-primary">Get Started</button> */}
                     </div>
+        
                 </div>
+                
             </div>
             
         </div>
