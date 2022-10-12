@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import { Link, useLoaderData } from 'react-router-dom';
 import SingleQuiz from '../Quiz/SingleQuiz/SingleQuiz';
 import './Topic.css'

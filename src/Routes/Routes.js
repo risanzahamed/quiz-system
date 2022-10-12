@@ -1,8 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import ErrorPage from '../Component/ErrorPage/ErrorPage'
-import Home from '../Component/Home/Home'
 import Root from '../Component/Root/Root'
-import Quiz from '../Component/Quiz/Quiz'
 import Topic from '../Component/Topic/Topic'
 import QuizDetails from '../Component/QuizDetails/QuizDetails'
 import Blog from '../Component/Blog/Blog'
