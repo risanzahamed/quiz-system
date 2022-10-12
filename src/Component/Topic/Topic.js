@@ -26,7 +26,7 @@ const Topic = () => {
 
                 </div>
             </div>
-            <div className='lg:flex md:grid md:grid-cols-2 md:m-5  m-0 sm:grid sm:grid-cols-1 sm:p-0 sm:m-0 p-10 lg:ml-12 lg:mb-6'>
+            <div className='lg:flex md:grid md:grid-cols-2 md:m-5 sm:grid sm:grid-cols-1 sm:p-0 sm:m-0 p-10 lg:ml-12 lg:mb-6'>
                 {
                     quizData.map(quiz => <ul key={quiz.id}>
                         <Link to={`/quiz/${quiz.id}`}>{quiz.id}

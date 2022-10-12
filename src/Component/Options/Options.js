@@ -13,7 +13,6 @@ const Options = ({ option, notify, answer }) => {
                     </label>
                 </div>
             </ol>
-        
         </div>
     );
 };
