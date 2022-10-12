@@ -6,12 +6,9 @@ import { eye, EyeIcon } from '@heroicons/react/24/solid'
 
 const Question = ({ question }) => {
     const answer = (question.correctAnswer)
-    // console.log(answer)
     const { options } = question
 
     const eyeClick = (answer) => {
-        // console.log(answer)
-        // alert( answer, "ami") 
 
         alert(  "Correct Ans is:" + ' '  + answer);
 

@@ -4,9 +4,8 @@ import Question from '../Question/Question';
 
 const QuizDetails = () => {
     const quizDetail = useLoaderData([])
-    // console.log(quizDetail);
     const { name,total,questions} = quizDetail.data
-    // console.log(questions);
+
     return (
         <div>
             <div className="card  bg-base-100 shadow-xl">

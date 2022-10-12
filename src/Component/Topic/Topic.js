@@ -22,18 +22,12 @@ const Topic = () => {
                             <h1 className="lg:text-6xl text-4xl text-center pt-10 lg:text-left sm:text-1xl sm:font-semibold sm:text-center">Online Tutorial From <br /> Top Instructor.</h1>
 
                             <p className="py-6 text-xl sm:text-center text-center  lg:text-left ">Meet university,and cultural institutions, who'll share their experience.</p>
-                            {/* <button className="btn btn-primary">Get Started</button> */}
                         </div>
                     </div>
 
                 </div>
             </div>
             <div className='lg:flex md:grid md:grid-cols-2 md:m-5  m-0 sm:grid sm:grid-cols-1 sm:p-0 sm:m-0 p-10 lg:ml-12 lg:mb-6'>
-                {/* {quizData.map(quiz => (
-                    <SingleQuiz key={quiz.id} quiz={quiz}
-                    />
-                ))} */}
-
                 {
                     quizData.map(quiz => <ul key={quiz.id}>
                         <Link to={`/quiz/${quiz.id}`}>{quiz.id}
