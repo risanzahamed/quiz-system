@@ -7,7 +7,7 @@ const Question = ({ question }) => {
     const { options, id} = question
     // console.log(correctAnswer)
     return (
-        <div className='shadow-lg w-1/2 mt-8 p-8 mx-auto'>
+        <div className='shadow-lg m-0 lg:w-1/2 mt-8 p-8 lg:mx-auto'>
             
                 <label  htmlFor="my-modal" className="btn modal-button <EyeIcon/></div>">open modal</label>
                 <input type="checkbox" id="my-modal" className="modal-toggle" />
@@ -20,7 +20,7 @@ const Question = ({ question }) => {
                     </div>
                 </div>
            
-            <div className='text-2xl font-semiboldbold  p-4'>Quiz: {question.question}</div>
+            <div className='lg:text-2xl text-xl mt-2 font-semiboldbold  lg:p-4'>Quiz: {question.question}</div>
             <div className='text-center align-middle justify-center'>
                 {
                     options.map(option => <Options

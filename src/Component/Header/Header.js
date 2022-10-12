@@ -37,6 +37,16 @@ const Header = () => {
               Blog
             </Link>
           </li>
+          <li>
+            <Link
+              to='/statistics'
+              aria-label='Statistics'
+              title='Statistics'
+              className='text-2xl tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+            >
+              Statistics
+            </Link>
+          </li>
         </ul>
         <div className='lg:hidden'>
           <button
@@ -100,6 +110,16 @@ const Header = () => {
                         className='text-2xl tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
                       >
                         Blog
+                      </Link>
+                    </li>
+                    <li>
+                      <Link
+                        to='/statistics'
+                        aria-label='Statistics'
+                        title='Statistics'
+                        className='text-2xl tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400'
+                      >
+                        Statistics
                       </Link>
                     </li>
                   </ul>
